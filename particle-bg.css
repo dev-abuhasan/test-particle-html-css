@@ -13,12 +13,14 @@
     padding: 40px;
 }
 
+.particle_child_cmn::before, .particle_child_cmn::after{
+    position: fixed;
+}
 .particle_child_cmn,
 .particle_child_cmn::before,
 .particle_child_cmn::after {
     content: "";
-    position: fixed;
-    top: 0;
+    top: 0px;
     left: 0;
     opacity: 0.9;
     transform-origin: top;
