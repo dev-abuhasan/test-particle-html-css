@@ -3,8 +3,8 @@
     overflow: hidden;
     position: relative;
     width: 100vw;
-    height: 500px;
-    /* position: fixed; */
+    height: 100vh;
+    position: fixed;
     z-index: -1;
 }
 .main_particle_body:active .particle_child_cmn,
