@@ -1,3 +1,4 @@
+// window.location.href="#slide-1";
 
 $('.navTrigger').click(function () {
     $(this).toggleClass('active');
